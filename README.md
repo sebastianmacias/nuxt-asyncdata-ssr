@@ -1,6 +1,6 @@
-# vapecity
+# Nuxt.js asyncData/generate error
 
-> Nuxt asyncData with SSR
+> TypeError: Cannot read property 'req' of undefined when "npm run generate" with asyncData
 
 ## Build Setup
 
