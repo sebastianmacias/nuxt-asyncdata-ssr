@@ -1,0 +1,82 @@
+@import '~assets/css/colors.scss';
+html,
+body {
+  background-color: #fff;
+  color: #2e2f30;
+  letter-spacing: 0.5px;
+  // font-family: "Source Sans Pro", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+html {
+  overflow-y: hidden;
+}
+h6 {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 600;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+a.btn.primary {
+  background-color: $color-third !important;
+}
+
+
+// .logo {
+//   width: 243px;
+//   height: 218px;
+// }
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0
+}
+
+div.section-description {
+  p {
+    margin-bottom: 0.2rem;
+  }
+  margin-bottom: 10px;
+}
+
+div.subscribe {
+  .input-group__input {
+    // background-color:$color-third !important;
+    // border-left: 15px solid red  !important; 
+  }
+  label {
+    padding-left: 12px;
+    padding-top: 6px;
+  }
+  input-group--text-field.input-group--dirty label,
+  .input-group--text-field.input-group--focused label,
+  .input-group--text-field.input-group--dirty label,
+  .input-group--text-field.input-group--focused label {
+    transform: translate3d(0, -36px, 0) scale(1);
+    color: $color-third;
+  }
+  .input-group--text-field input {
+    height: 44px;
+    background-color: $color-third !important;
+    padding-left: 12px;
+  }
+  a.btn.primary {
+    margin-top: 17px;
+  }
+}
